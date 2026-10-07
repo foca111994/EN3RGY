@@ -1,6 +1,6 @@
 # Sharpe En3rgy Solutions — connected home concept
 
-An independent, responsive website concept created by Lucas De Rossa. A real procedural Three.js home is the centre of an interactive solar / battery / comfort / hot water showroom. The home and twilight photography are illustrative. The original logo is supplied by the project owner; the technician photo is sourced from the company website.
+An independent, responsive website concept created by Lucas De Rossa. A photorealistic layered house with subtle floating motion and pointer parallax is the centre of an interactive solar / battery / comfort / hot water showroom. The home and twilight photography are illustrative. The original logo is supplied by the project owner; the technician photo is sourced from the company website.
 
 ![Desktop hero preview](docs/hero-preview.webp)
 
@@ -30,7 +30,7 @@ Choose your project name before deploying; it determines the initial `pages.dev`
 
 ## Interaction and accessibility
 
-Four service tabs move the camera around a geometrically modelled home. Floating cards, camera parallax and an energy path connect the scene to the business. Animation pauses off-screen; the pause control and reduced-motion preference are supported. The Canvas is decorative; controls, explanations, headings and links are accessible HTML. Devices without WebGL receive a photographic fallback. Touch keeps normal vertical scrolling. Soft gradients join the sections. Keyboard tabs support Left/Right, Home and End.
+Four service tabs and clickable hotspots select solar, battery, comfort and hot water explanations. The house is a transparent raster image with 2.5D motion, not a rotatable 360-degree model. Animation pauses off-screen; a pause control and reduced-motion preference are supported. All controls and content are accessible HTML. No WebGL is required. Touch keeps normal vertical scrolling. Sections have clean boundaries, with no blurred transition bands. Keyboard tabs support Left/Right, Home and End.
 
 A local quote helper selects a service and suburb. It does not transmit or persist personal data; it directs visitors to the official quote system. No testimonials, savings figures or customer installation claims are invented.
 
